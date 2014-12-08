@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B6FCDE1A3662770070C98F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FCDD1A3662770070C98F /* AppDelegate.m */; };
+		94B6FCE01A3662770070C98F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FCDF1A3662770070C98F /* main.m */; };
+		94B6FCE31A3662770070C98F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FCE21A3662770070C98F /* ViewController.m */; };
+		94B6FCE61A3662770070C98F /* TrippingOctoBatman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FCE41A3662770070C98F /* TrippingOctoBatman.xcdatamodeld */; };
+		94B6FCE81A3662770070C98F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B6FCE71A3662770070C98F /* Images.xcassets */; };
+		94B6FCEB1A3662770070C98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B6FCE91A3662770070C98F /* Main.storyboard */; };
+		94B6FCF71A3662770070C98F /* TrippingOctoBatmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B6FCF61A3662770070C98F /* TrippingOctoBatmanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94B6FCF11A3662770070C98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B6FCCF1A3662760070C98F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B6FCD61A3662760070C98F;
+			remoteInfo = TrippingOctoBatman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94B6FCD71A3662770070C98F /* TrippingOctoBatman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrippingOctoBatman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B6FCDB1A3662770070C98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B6FCDC1A3662770070C98F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94B6FCDD1A3662770070C98F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94B6FCDF1A3662770070C98F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94B6FCE11A3662770070C98F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94B6FCE21A3662770070C98F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94B6FCE51A3662770070C98F /* TrippingOctoBatman.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrippingOctoBatman.xcdatamodel; sourceTree = "<group>"; };
+		94B6FCE71A3662770070C98F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94B6FCEA1A3662770070C98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B6FCF01A3662770070C98F /* TrippingOctoBatmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrippingOctoBatmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B6FCF51A3662770070C98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B6FCF61A3662770070C98F /* TrippingOctoBatmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrippingOctoBatmanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B6FCD41A3662760070C98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B6FCED1A3662770070C98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B6FCCE1A3662760070C98F = {
+			isa = PBXGroup;
+			children = (
+				94B6FCD91A3662770070C98F /* TrippingOctoBatman */,
+				94B6FCF31A3662770070C98F /* TrippingOctoBatmanTests */,
+				94B6FCD81A3662770070C98F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B6FCD81A3662770070C98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FCD71A3662770070C98F /* TrippingOctoBatman.app */,
+				94B6FCF01A3662770070C98F /* TrippingOctoBatmanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B6FCD91A3662770070C98F /* TrippingOctoBatman */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FCDC1A3662770070C98F /* AppDelegate.h */,
+				94B6FCDD1A3662770070C98F /* AppDelegate.m */,
+				94B6FCE11A3662770070C98F /* ViewController.h */,
+				94B6FCE21A3662770070C98F /* ViewController.m */,
+				94B6FCE71A3662770070C98F /* Images.xcassets */,
+				94B6FCE91A3662770070C98F /* Main.storyboard */,
+				94B6FCE41A3662770070C98F /* TrippingOctoBatman.xcdatamodeld */,
+				94B6FCDA1A3662770070C98F /* Supporting Files */,
+			);
+			path = TrippingOctoBatman;
+			sourceTree = "<group>";
+		};
+		94B6FCDA1A3662770070C98F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FCDB1A3662770070C98F /* Info.plist */,
+				94B6FCDF1A3662770070C98F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94B6FCF31A3662770070C98F /* TrippingOctoBatmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FCF61A3662770070C98F /* TrippingOctoBatmanTests.m */,
+				94B6FCF41A3662770070C98F /* Supporting Files */,
+			);
+			path = TrippingOctoBatmanTests;
+			sourceTree = "<group>";
+		};
+		94B6FCF41A3662770070C98F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B6FCF51A3662770070C98F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B6FCD61A3662760070C98F /* TrippingOctoBatman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B6FCFA1A3662770070C98F /* Build configuration list for PBXNativeTarget "TrippingOctoBatman" */;
+			buildPhases = (
+				94B6FCD31A3662760070C98F /* Sources */,
+				94B6FCD41A3662760070C98F /* Frameworks */,
+				94B6FCD51A3662760070C98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrippingOctoBatman;
+			productName = TrippingOctoBatman;
+			productReference = 94B6FCD71A3662770070C98F /* TrippingOctoBatman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B6FCEF1A3662770070C98F /* TrippingOctoBatmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B6FCFD1A3662770070C98F /* Build configuration list for PBXNativeTarget "TrippingOctoBatmanTests" */;
+			buildPhases = (
+				94B6FCEC1A3662770070C98F /* Sources */,
+				94B6FCED1A3662770070C98F /* Frameworks */,
+				94B6FCEE1A3662770070C98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B6FCF21A3662770070C98F /* PBXTargetDependency */,
+			);
+			name = TrippingOctoBatmanTests;
+			productName = TrippingOctoBatmanTests;
+			productReference = 94B6FCF01A3662770070C98F /* TrippingOctoBatmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B6FCCF1A3662760070C98F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ryan Lovelett";
+				TargetAttributes = {
+					94B6FCD61A3662760070C98F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					94B6FCEF1A3662770070C98F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 94B6FCD61A3662760070C98F;
+					};
+				};
+			};
+			buildConfigurationList = 94B6FCD21A3662760070C98F /* Build configuration list for PBXProject "TrippingOctoBatman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B6FCCE1A3662760070C98F;
+			productRefGroup = 94B6FCD81A3662770070C98F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B6FCD61A3662760070C98F /* TrippingOctoBatman */,
+				94B6FCEF1A3662770070C98F /* TrippingOctoBatmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B6FCD51A3662760070C98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B6FCE81A3662770070C98F /* Images.xcassets in Resources */,
+				94B6FCEB1A3662770070C98F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B6FCEE1A3662770070C98F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B6FCD31A3662760070C98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B6FCE61A3662770070C98F /* TrippingOctoBatman.xcdatamodeld in Sources */,
+				94B6FCE31A3662770070C98F /* ViewController.m in Sources */,
+				94B6FCE01A3662770070C98F /* main.m in Sources */,
+				94B6FCDE1A3662770070C98F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B6FCEC1A3662770070C98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B6FCF71A3662770070C98F /* TrippingOctoBatmanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B6FCF21A3662770070C98F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B6FCD61A3662760070C98F /* TrippingOctoBatman */;
+			targetProxy = 94B6FCF11A3662770070C98F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94B6FCE91A3662770070C98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B6FCEA1A3662770070C98F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B6FCF81A3662770070C98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		94B6FCF91A3662770070C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		94B6FCFB1A3662770070C98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrippingOctoBatman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94B6FCFC1A3662770070C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrippingOctoBatman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94B6FCFE1A3662770070C98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrippingOctoBatmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrippingOctoBatman.app/Contents/MacOS/TrippingOctoBatman";
+			};
+			name = Debug;
+		};
+		94B6FCFF1A3662770070C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrippingOctoBatmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrippingOctoBatman.app/Contents/MacOS/TrippingOctoBatman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B6FCD21A3662760070C98F /* Build configuration list for PBXProject "TrippingOctoBatman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B6FCF81A3662770070C98F /* Debug */,
+				94B6FCF91A3662770070C98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B6FCFA1A3662770070C98F /* Build configuration list for PBXNativeTarget "TrippingOctoBatman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B6FCFB1A3662770070C98F /* Debug */,
+				94B6FCFC1A3662770070C98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94B6FCFD1A3662770070C98F /* Build configuration list for PBXNativeTarget "TrippingOctoBatmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B6FCFE1A3662770070C98F /* Debug */,
+				94B6FCFF1A3662770070C98F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94B6FCE41A3662770070C98F /* TrippingOctoBatman.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94B6FCE51A3662770070C98F /* TrippingOctoBatman.xcdatamodel */,
+			);
+			currentVersion = 94B6FCE51A3662770070C98F /* TrippingOctoBatman.xcdatamodel */;
+			path = TrippingOctoBatman.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94B6FCCF1A3662760070C98F /* Project object */;
+}
