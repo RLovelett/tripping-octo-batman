@@ -408,6 +408,7 @@
 				94B6FCFC1A3662770070C98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94B6FCFD1A3662770070C98F /* Build configuration list for PBXNativeTarget "TrippingOctoBatmanTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +417,7 @@
 				94B6FCFF1A3662770070C98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

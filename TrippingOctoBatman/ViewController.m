@@ -7,13 +7,24 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 
-@implementation ViewController
+@implementation ViewController {
+    AppDelegate *appDelegate;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    appDelegate = (AppDelegate *)[[NSApplication sharedApplication] delegate];
+
+    NSUserNotification *notice = [[NSUserNotification alloc] init];
+    notice.title = @"Ryan";
+    notice.subtitle = @"Lovelett";
+    notice.informativeText = @"Lorem ipsum dolor sit amet.";
+
+    [[[self view] window] performMiniaturize:self];
 }
 
 - (void)setRepresentedObject:(id)representedObject {
